@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vintage Food</title>
+</head>
+<body>
+    <header class="page_header">
+        <nav class="navigation">
+            <a href="#"</a>
+                <img src="images/Логотип.png" class="logo">
+                <a>
+                    <ul class="navigation_list">
+                <li>
+                    <a href="#"class="navigation_title_main">Главная</a>
+                </li>
+                 <li>
+                    <a href="#"class="navigation_title_main">Акции</a>
+                </li>
+                 <li>
+                    <a href="#"class="navigation_title_main">О нас</a>
+                </li>
+                </ul>
+                <button class="navigation_button" type="button">
+                    <img src="images/Кнопка _Корзина_.png" class="korzina">
+                </button>
+                </a>
+        </nav>
+<div class="container_page_header">
+    <ul class="text_header_list">
+        <li>
+            <p class="text_header"> Быстрая доставка для вас</p>
+        </li>
+         <li>
+            <p class="text_header2"> Сделай первый заказ и получи скидку 50%</p>
+        </li>
+        <li>
+            <button class="container_header_button" type="button">Заказать    
+            </button>
+        </li>
+    </ul>
+<div>
+    <img src="images/Фото _Бургер_.png" width="642" height="600">
+</div>
+    </header>
+    <main class="page_main">
+<section class="container_catalog">
+</section>
+<h1 class="catalog_title">Меню</h1>
+<ul class="catalog_list">
+    <li class="catalog_item">
+<img src="images/Картинка _Бургеры_.png" width="450" height="300">
+<p class="catalog_texn">Бургеры</p>
+    </li>
+    <li class="catalog_item">
+<img src="images/Картинка _Блюда из курицы_.png" width="450" height="300">
+<p class="catalog_texn">Блюда из курицы</p>
+    </li>
+    <li class="catalog_item">
+<img src="images/Картинка _Горячие блюда_.png" width="450" height="300">
+<p class="catalog_texn">Горячие блюда</p>
+    </li>
+    <li class="catalog_item">
+<img src="images/Картинка _Закуски_.png" width="450" height="300">
+<p class="catalog_texn">Закуски</p>
+    </li>
+    <li class="catalog_item">
+<img src="images/Картинка _Салаты_.png" width="450" height="300">
+<p class="catalog_texn">Салаты</p>
+    </li>
+    <li class="catalog_item">
+<img src="images/Картинка _Десерты_.png" width="450" height="300">
+<p class="catalog_texn">Десерты</p>
+    </li>
+</ul>
+    </main>
+<footer class="page_footer">
+<ul class="footer_list">
+    <li>
+        <a href="#" class="footer_title">Программа лояльности</a>
+    </li>
+     <li>
+        <a href="#" class="footer_title">Политика конфиденциальности</a>
+    </li>
+     <li>
+        <a href="#" class="footer_title">Договор оферты</a>
+    </li>
+</ul>
+<ul class="footer_page_text">
+    <li>
+        <p class="footer_text">OOO "Vintage Food"</p>
+    </li>
+    <li>
+        <p class="footer_text">© Все права защищены</p>
+    </li>
+</ul>
+<ul class="footer_contact">
+    <li>
+        <a href="#">
+            <img src="images/VK Circled.png" class="footer_images" width="49" height="50">
+        </a>
+    </li>
+     <li>
+        <a href="#">
+            
+            <img src="images/Telegram.png" class="footer_images" width="55" height="55">
+        </a>
+    </li>
+</ul>
+</footer>
+</body>
+</html>
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    color: black;
+    background: white;
+}
+.page_header{
+width: 1670px;
+min-height: 800px;
+background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+}
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    min-height: 70px;
+    padding-top:105px;
+    padding-right: 65px;
+}
+.logo{
+    display: block;
+    margin-top: 8px;
+}
+.navigation_list{
+    display: flex;
+flex-wrap: wrap;
+gap: 30px;
+margin: auto 0;
+padding: 0;
+margin-left: 149px;
+list-style: none;
+}
+.navigation_title_main{
+    display: block;
+    min-width: 200px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+}
+.navigation_button{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border: none;
+    border-radius: 100px;
+}
+.container_page_header{
+    display:flex;  
+    padding-top: 25px;
+    gap: 20px;
+    padding-left: 300px;
+}
+.text_header_list{
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.text_header{
+margin: 0;
+padding: 0;
+padding-top: 190;
+font-weight: 800;
+font-size: 33px ;
+line-height: 40px;
+}
+.text_header2{
+margin: 0;
+padding: 0;
+padding-top: 30px;
+padding-bottom: 30px;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+}
+.container_header_button{
+display: block;
+margin: 0;
+padding:25px;
+font-weight: 400;
+font-size: 30px;
+line-height: 25px;
+color: white;
+background: #E52626;
+border-radius: 50px;
+border: none;
+border-radius: 50px;
+}
+.page_main{
+    width: 1670px;
+    min-height: 800px;
+    text-align: center;
+}
+.container_catalog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.catalog_title{
+margin: 0;
+padding:0;
+font-size: 45px;
+line-height: 55px;
+color: black;
+font-weight: 600;
+}
+.catalog_list{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0;
+margin-left: 0px;
+margin-top: 40px;
+padding: 0;
+gap: 40px, 30px;
+list-style: none;
+}
+.catalog_item{
+width: 500px;
+}
+.catalog_texn{
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-weight: 500px;
+    font-size: 35px;
+    line-height: 60px;
+    color: black;
+}
+.page_footer{
+    width: 1670px;
+    min-height: 450px;
+    text-align: center;
+   background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 100%);
+}
+.footer_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    padding-top: 160px;
+    gap: 100px;
+    font-weight: 400px;
+    font-size: 28px;
+    line-height: 25px;
+    justify-content: center;
+    list-style: none;
+}
+.footer_title{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+.footer_page_text{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 25px;
+    list-style: none;
+}
+.footer_text{
+    padding-top:25px;
+}
+.footer_contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    list-style: none;
+    padding-top: 25px;
+}
+  .footer_images{
+    display: block;
+  }
